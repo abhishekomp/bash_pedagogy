@@ -1,0 +1,13 @@
+BEGIN{
+print "Awk is awesome"
+}
+{
+myVar=99
+if($NF > 500 && $5 != "salary")
+print $NF+myVar
+else
+print "line: ", NR, " did not meet the condition"
+}
+END{
+print "peace to all"
+}

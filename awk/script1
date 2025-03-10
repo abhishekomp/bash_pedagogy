@@ -1,0 +1,6 @@
+{
+if ($NF > 500)
+print $NF
+else
+print "hi"
+}
