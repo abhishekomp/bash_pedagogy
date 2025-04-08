@@ -1,3 +1,15 @@
 Extract all the urls from the file
 awk '$NF ~ /^https/ {print NR, $8, $9}' http_logs_test1
 ********************************************************
+Exercise based on anotherInputFile
+
+Q1) Print all the lines where the position = manager (exactly manager)
+awk -F ":" '$2=="manager" {print $0}' anotherInputFile
+
+Q2) Print all the lines where the position (field number 2) value contains manager
+tilde will be used in this case.
+
+Q3) Print all the lines where there is the string manager anywhere in the line
+
+Q4) Print the name and the age of every manager in the format name@@age. For example,  raj@@32 and so on
+
