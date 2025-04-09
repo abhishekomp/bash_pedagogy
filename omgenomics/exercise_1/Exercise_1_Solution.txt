@@ -1,0 +1,17 @@
+Ans 1) 
+cat myfile.txt | cut -f 2
+
+Ans 2) 
+cat myfile.txt | cut -f 2 | sort | uniq -c
+
+Ans 3) 
+cat myfile.txt | cut -f 2 | sort | uniq -c | sort -k1,1
+A better answer would be to use n in the sort command to say that you want to sort numerically otherwise if you have 10 count for a type then 10 will come after 1 and then 2 will come.
+cat myfile.txt | cut -f 2 | sort | uniq -c | sort -k1,1n
+
+Ans 4) 
+cat myfile.txt | cut -f 2 | sort | uniq -c | sort -k1,1nr
+
+Ans 5) 
+cat myfile.txt | cut -f 2 | sort | uniq -c | sort -k1,1nr | head -n 1
+
