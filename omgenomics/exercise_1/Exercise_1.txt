@@ -26,5 +26,5 @@ So the result should be as follows:
    3 Water
    1 Electric
 
-4) Show the type with the max count as follows:(note there are 6 entries with type = Bug)
+5) Show the type with the max count as follows:(note there are 6 entries with type = Bug)
   6 Bug
