@@ -1,5 +1,6 @@
 Given this myfile.txt having data about pokemon characters and the 2nd column as the type of character, do the following:
 1) Show all the values from the 2nd column i.e. the type of the character.
+
 2) Consolidate the information based on the type columne (2nd column). Show the number of characters per type.
 In this case, there are 6 Bugs, 3 Grass and so on.
 So the result should be as follows:
@@ -17,10 +18,13 @@ So the result should be as follows:
    3 Normal
    3 Water
    6 Bug
-3) Show the output of Question 2 in a sorted manner in reverse order (sorted by the count). That is in this way
+4) Show the output of Question 2 in a sorted manner in reverse order (sorted by the count). That is in this way:
    6 Bug
    3 Fire
    3 Grass
    3 Normal
    3 Water
    1 Electric
+
+4) Show the type with the max count as follows:(note there are 6 entries with type = Bug)
+  6 Bug
