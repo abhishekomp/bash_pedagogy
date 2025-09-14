@@ -1,0 +1,56 @@
+# =========================
+# macOS system files
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails, Spotlight, and other metadata
+._*
+.Spotlight-V100
+.Trashes
+.DocumentRevisions-V100
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# =========================
+# Bash script / project files
+# =========================
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+*.save
+
+# Log files
+*.log
+
+# Output directories (for temporary generated files)
+output/
+build/
+dist/
+
+# Temporary files
+tmp/
+temp/
+
+# =========================
+# VS Code settings
+# =========================
+.vscode/
+
+# =========================
+# Misc / Editor files
+# =========================
+# JetBrains IDEs
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Other editors
+*.swp
+*.swo

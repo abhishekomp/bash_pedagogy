@@ -84,6 +84,7 @@ if [[ $MOVE -eq 0 ]]; then
   done
 
   echo "Dry run: $COUNT files would be moved from $SOURCE to $DEST."
+  echo "Run with -m to actually move files."
   if [[ $CONFLICTS -gt 0 ]]; then
     echo "WARNING: $CONFLICTS file(s) would need renaming due to conflicts."
   else
